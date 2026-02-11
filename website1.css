@@ -4,11 +4,20 @@ body {
 
 .container1 {
     display: flex;
+    flex: auto;
     background-color: #1F2937;
-    color: whitesmoke;
+    color: #E5E7EB;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    padding-right: 150px;
 }
 
 .hlogo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 200px;
 }
